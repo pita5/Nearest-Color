@@ -1,0 +1,275 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6ACD7BC913A3F81100C43FF5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ACD7BC813A3F81100C43FF5 /* UIKit.framework */; };
+		6ACD7BCB13A3F81100C43FF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ACD7BCA13A3F81100C43FF5 /* Foundation.framework */; };
+		6ACD7BCD13A3F81100C43FF5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ACD7BCC13A3F81100C43FF5 /* CoreGraphics.framework */; };
+		6ACD7BD313A3F81100C43FF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6ACD7BD113A3F81100C43FF5 /* InfoPlist.strings */; };
+		6ACD7BD613A3F81100C43FF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACD7BD513A3F81100C43FF5 /* main.m */; };
+		6ACD7BD913A3F81100C43FF5 /* ColorAlgorithmAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACD7BD813A3F81100C43FF5 /* ColorAlgorithmAppDelegate.m */; };
+		6ACD7BDC13A3F81100C43FF5 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6ACD7BDA13A3F81100C43FF5 /* MainWindow.xib */; };
+		6ACD7BE413A3F85300C43FF5 /* UIColor+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACD7BE313A3F85300C43FF5 /* UIColor+Utilities.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6ACD7BC413A3F81100C43FF5 /* NearestColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NearestColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ACD7BC813A3F81100C43FF5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6ACD7BCA13A3F81100C43FF5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6ACD7BCC13A3F81100C43FF5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6ACD7BD013A3F81100C43FF5 /* NearestColor-Info.plist */ = {isa = PBXFileReference; path = "NearestColor-Info.plist"; sourceTree = "<group>"; };
+		6ACD7BD213A3F81100C43FF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6ACD7BD413A3F81100C43FF5 /* NearestColor-Prefix.pch */ = {isa = PBXFileReference; path = "NearestColor-Prefix.pch"; sourceTree = "<group>"; };
+		6ACD7BD513A3F81100C43FF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6ACD7BD713A3F81100C43FF5 /* ColorAlgorithmAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorAlgorithmAppDelegate.h; sourceTree = "<group>"; };
+		6ACD7BD813A3F81100C43FF5 /* ColorAlgorithmAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorAlgorithmAppDelegate.m; sourceTree = "<group>"; };
+		6ACD7BDB13A3F81100C43FF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		6ACD7BE213A3F85300C43FF5 /* UIColor+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Utilities.h"; sourceTree = "<group>"; };
+		6ACD7BE313A3F85300C43FF5 /* UIColor+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Utilities.m"; sourceTree = "<group>"; };
+		6ACD7BE513A3F9B300C43FF5 /* colors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = colors.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6ACD7BC113A3F81100C43FF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ACD7BC913A3F81100C43FF5 /* UIKit.framework in Frameworks */,
+				6ACD7BCB13A3F81100C43FF5 /* Foundation.framework in Frameworks */,
+				6ACD7BCD13A3F81100C43FF5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6ACD7BB913A3F81100C43FF5 = {
+			isa = PBXGroup;
+			children = (
+				6ACD7BCE13A3F81100C43FF5 /* NearestColor */,
+				6ACD7BC713A3F81100C43FF5 /* Frameworks */,
+				6ACD7BC513A3F81100C43FF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6ACD7BC513A3F81100C43FF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6ACD7BC413A3F81100C43FF5 /* NearestColor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6ACD7BC713A3F81100C43FF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6ACD7BC813A3F81100C43FF5 /* UIKit.framework */,
+				6ACD7BCA13A3F81100C43FF5 /* Foundation.framework */,
+				6ACD7BCC13A3F81100C43FF5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6ACD7BCE13A3F81100C43FF5 /* NearestColor */ = {
+			isa = PBXGroup;
+			children = (
+				6ACD7BD713A3F81100C43FF5 /* ColorAlgorithmAppDelegate.h */,
+				6ACD7BD813A3F81100C43FF5 /* ColorAlgorithmAppDelegate.m */,
+				6ACD7BDA13A3F81100C43FF5 /* MainWindow.xib */,
+				6ACD7BCF13A3F81100C43FF5 /* Supporting Files */,
+				6ACD7BE213A3F85300C43FF5 /* UIColor+Utilities.h */,
+				6ACD7BE313A3F85300C43FF5 /* UIColor+Utilities.m */,
+				6ACD7BE513A3F9B300C43FF5 /* colors.h */,
+			);
+			name = NearestColor;
+			path = ColorAlgorithm;
+			sourceTree = "<group>";
+		};
+		6ACD7BCF13A3F81100C43FF5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6ACD7BD013A3F81100C43FF5 /* NearestColor-Info.plist */,
+				6ACD7BD113A3F81100C43FF5 /* InfoPlist.strings */,
+				6ACD7BD413A3F81100C43FF5 /* NearestColor-Prefix.pch */,
+				6ACD7BD513A3F81100C43FF5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6ACD7BC313A3F81100C43FF5 /* NearestColor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ACD7BDF13A3F81100C43FF5 /* Build configuration list for PBXNativeTarget "NearestColor" */;
+			buildPhases = (
+				6ACD7BC013A3F81100C43FF5 /* Sources */,
+				6ACD7BC113A3F81100C43FF5 /* Frameworks */,
+				6ACD7BC213A3F81100C43FF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NearestColor;
+			productName = ColorAlgorithm;
+			productReference = 6ACD7BC413A3F81100C43FF5 /* NearestColor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6ACD7BBB13A3F81100C43FF5 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 6ACD7BBE13A3F81100C43FF5 /* Build configuration list for PBXProject "NearestColor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6ACD7BB913A3F81100C43FF5;
+			productRefGroup = 6ACD7BC513A3F81100C43FF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6ACD7BC313A3F81100C43FF5 /* NearestColor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6ACD7BC213A3F81100C43FF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ACD7BD313A3F81100C43FF5 /* InfoPlist.strings in Resources */,
+				6ACD7BDC13A3F81100C43FF5 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6ACD7BC013A3F81100C43FF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ACD7BD613A3F81100C43FF5 /* main.m in Sources */,
+				6ACD7BD913A3F81100C43FF5 /* ColorAlgorithmAppDelegate.m in Sources */,
+				6ACD7BE413A3F85300C43FF5 /* UIColor+Utilities.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6ACD7BD113A3F81100C43FF5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ACD7BD213A3F81100C43FF5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6ACD7BDA13A3F81100C43FF5 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ACD7BDB13A3F81100C43FF5 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6ACD7BDD13A3F81100C43FF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6ACD7BDE13A3F81100C43FF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		6ACD7BE013A3F81100C43FF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ColorAlgorithm/NearestColor-Prefix.pch";
+				INFOPLIST_FILE = "ColorAlgorithm/NearestColor-Info.plist";
+				PRODUCT_NAME = NearestColor;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6ACD7BE113A3F81100C43FF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ColorAlgorithm/NearestColor-Prefix.pch";
+				INFOPLIST_FILE = "ColorAlgorithm/NearestColor-Info.plist";
+				PRODUCT_NAME = NearestColor;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6ACD7BBE13A3F81100C43FF5 /* Build configuration list for PBXProject "NearestColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ACD7BDD13A3F81100C43FF5 /* Debug */,
+				6ACD7BDE13A3F81100C43FF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ACD7BDF13A3F81100C43FF5 /* Build configuration list for PBXNativeTarget "NearestColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ACD7BE013A3F81100C43FF5 /* Debug */,
+				6ACD7BE113A3F81100C43FF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6ACD7BBB13A3F81100C43FF5 /* Project object */;
+}

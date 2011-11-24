@@ -1,0 +1,7 @@
+A category on UIColor to find the closest color in an array to "self"
+
+Uses a color distance algorithm.
+
+Written By Quenton Jones
+Mysterious Trousers, LLC
+Copyright 2011
